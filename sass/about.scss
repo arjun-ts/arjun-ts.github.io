@@ -1,0 +1,29 @@
+.imagebox {
+    height: 300px;
+    width: 100%;
+    background-color: #000;
+}
+
+.border {
+    width: 25%;
+    margin: 15px 0;
+}
+
+.case-study {
+    .content {
+        h5 {
+            color: #9A9A9A;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+
+        h3 {
+            color: #000;
+        }
+
+        h4 {
+            color: #000;
+            font-weight: 300;
+        }
+    }
+}
