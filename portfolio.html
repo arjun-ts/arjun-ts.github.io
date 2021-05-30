@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-light px-0">
+        <div class="container-fluid p-0">
             <a class="navbar-brand" href="#">Arjun TS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +41,9 @@
     </nav>
 
     <section class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+        <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-md-6 p-0">
                     <div class="content mb-5">
                         <h2>Hello I'm <span class="red">Arjun</span></h2>
                         <h4>An Ux Designer based in Kochi.
@@ -58,10 +58,10 @@
     </section>
 
     <section class="skills case-study">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-4">
-                    <div class="content ml-5">
+        <div class="container-fluid p-0">
+            <div class="row align-items-center m-0">
+                <div class="col-md-4 p-0">
+                    <div class="content">
                         <h5>CASE STUDY</h5>
                         <h3>A dreamer and designer based in Kochi</h3>
                         <div class="border">
@@ -70,7 +70,7 @@
                         <h4>QUAIL</h4>
                     </div>
                 </div>
-                <div class="col-md-8 pr-0">
+                <div class="col-md-8 pr-0 pl-0">
                     <div class="details">
                         <div class="imagebox">
 
@@ -85,9 +85,9 @@
 
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+        <div class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col-md-4 p-">
                     <div class="box">
                         <h3>Arjun</h3>
                         <p>User Experience Designer</p>
@@ -96,8 +96,8 @@
 
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12">
+            <div class="row justify-content-center m-0">
+                <div class="col-md-12 p-0">
                     <ul class="list-inline mx-auto text-center">
                         <li class="list-inline-item">Home</li>
                         <li class="list-inline-item">About Us</li>
@@ -109,6 +109,11 @@
     </footer>
 
 
+    <style>
+        .container-fluid{
+            padding:  0 100px !important;
+        }
+    </style>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
